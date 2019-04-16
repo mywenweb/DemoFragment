@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script>
+    function createLottey(){
+       var lottery = document.getElementyById('lottey');
+       lottery.innerHTML = parseInt(Math.random()*49+1)
+    }
+</script>
+<h1>page2 test</h1>
+<hr>
+hello, World
+<hr>
+<a href='page1.html'>Page1</a><hr>
+<input type='button' onclick="createLottery()" value="出樂透">
+<br>
+Lottery:<span id='lottey'></span>
+
+
